@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> currency converter</title>
+        <link rel="stylesheet" href="style.css">
+
+
+        
+    </head>
+    <body id="bi" style="background-image : url(image.jpeg);">
+    <img id="leftimage" src="">
+    <img id="rightimage" src="">
+        
+        <div id="currency-container">
+            <div id="currency-box">
+                <h1 id="cc">convert your currency</h1>
+                <p id="am">Amount</p>
+                <input type="number" id="amt" placeholder="Enter the amount">
+                <br>
+                <p id ="fc">From currency</p>
+                <select id="from">
+                     <option value="INR" >Indian rupee😊</option>
+                     <option value="USD" >US dollar</option>
+                     <option value="EUR">Euro</option>
+                     <option value="GBP">British pound</option>
+                     <option value="JPY">Japanese yen</option>
+                     <option value="AUD">Australian dollar</option>
+                      <option value="CAD">Canadian dollar</option>
+                      <option value="CHF">Swiss franc</option>
+                      <option value="CNY">Chinese yuan</option>
+                      <option value="AED">UAE dirham</option>
+                    
+                </select>
+                <br>
+                <p  id="tc"> To currency</p>
+                <select id="to">
+                    <option value="INR" >Indian rupee</option>
+                    <option value="USD">US dollar</option>
+                    <option value="EUR">Euro</option>
+                    <option value="GBP">British pound</option>
+                    <option value="JPY">Japanese yen</option>
+                   <option value="AUD">Australian dollar</option>
+                    <option value="CAD">Canadian dollar</option>
+                    <option value="CHF">Swiss franc</option>
+                    <option value="CNY">Chinese yuan</option>
+                    <option value="AED">UAE dirham</option>
+                
+                    
+
+                </select>
+                <br></br>
+                
+                <button id="btn" onclick="convertCurrency()">Convert</button>
+                  <p id="result" style="color: brown;"> RESULT</p>
+
+                
+
+                <a href="index.html" >back to first page</a>
+                 
+
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
